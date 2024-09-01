@@ -1,0 +1,7 @@
+langchain 
+sentence-transformers
+git+https://github.com/LucknowAI/Lucknow-LLM
+beautifulsoup4 
+requests
+os
+time

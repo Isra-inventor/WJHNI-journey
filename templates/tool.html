@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./static/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/chat.css" />
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <a><img class="logo" src="./static/images/logo.png"/></a>
+        <a><hr></a>
+        <p>MAIN</p>
+        <a class="active" href="./tool"><img class="iconn" src="./static/images/chaticon.png">New chat</a>
+        <a href="./"><img class="iconn" src="./static/images/homeicon.png">Home</a>
+        <a href="./"><img class="iconn" src="./static/images/infoicon.png">About</a>
+        <a><hr></a>
+    </div>
+    <div class="inpu">
+    <form method="POST">
+        <input class="inp" type="text" name="user_input" placeholder="أكتب سؤالك هنا" id="user_input">
+        <input type="submit" class="sbutton" value="Submit">
+    </form></div>
+    {% if result %}
+    <div class="answer">
+        <p>{{ result }}</p>
+    </div>
+    {% endif %}
+</body>
+
+</html>

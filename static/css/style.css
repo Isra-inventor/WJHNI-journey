@@ -1,0 +1,150 @@
+body{
+  background-image: url("../images/backgroundd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: transparent; /* Transparent background */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+.navbar a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  
+}
+
+.navbar .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.wjhnii.root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+  }
+/*.root1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+    background: var(--src) center center/100% 100% no-repeat;
+}*/
+.wjhnii .group {
+    position: absolute;
+    top: -20px;
+    left: -250px;
+    width: 100%;
+    height: 694px;
+  }
+  .wjhnii .hero_title {
+    position: absolute;
+    top: 130px;
+    left: 663px;
+    width: 300px;
+    height: 302px;
+    font: 800 200px/1.51 Prompt, Helvetica, Arial, serif;
+    color: black;
+  }
+  .wjhnii .hero_title1 {
+    position: absolute;
+    top: 282px;
+    left: 530px;
+    width: 300px;
+    height: 302px;
+    font: 800 200px/1.51 Prompt, Helvetica, Arial, serif;
+    color: black;
+  }
+  .wjhnii .cover1 {
+    position: absolute;
+    top: 140px;
+    left: 540px;
+    width: 800px;
+  }
+  .wjhnii .subtitle {
+    position: absolute;
+    bottom: 144px;
+    left: 825px;
+    width: 372px;
+    height: 30px;
+    font: 600 20px/1.5 Prompt, Helvetica, Arial, serif;
+    color: black;
+  }
+  .wjhnii .subtitle1 {
+    position: absolute;
+    top: 158px;
+    left: 737px;
+    width: 430px;
+    height: 28px;
+    font: 600 20px/1.39 Prompt, Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: 4.8px;
+  }
+  .wjhnii .image {
+    position: absolute;
+    top: 158px;
+    left: 560px;
+    width: 800px;
+    -o-object-position: 30% center;
+    object-position: 30% center;
+    opacity: 0.83;
+  }
+  .wjhnii .content_box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left:590px;
+    top:550px;
+    width: 226px;
+    height: 60px;
+    border-radius: 30px;
+    outline: 4px solid black;
+    outline-offset: -4px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .wjhnii .group1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .wjhnii .cover2 {
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+    outline: 4px solid black;
+    outline-offset: -4px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .wjhnii .subtitle2 {
+    position: absolute;
+    top: 16px;
+    left: 69px;
+    width: 84px;
+    height: 28px;
+    font: 600 20px/1.39 Inter, Helvetica, Arial, serif;
+    color: white;
+  }
+
+  .books{
+    width:100%;
+    height:700px;
+  }

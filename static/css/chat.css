@@ -1,0 +1,183 @@
+body{
+  background-image: url("../images/backgroundd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+}
+.sidebar {
+    top:0;
+    left:2px;
+    width: 230px;
+    background: linear-gradient(to bottom, #0F090C,#ff00885e,#ff950046);
+    opacity: 0.8;
+    position: absolute;
+    height: 650px;
+    overflow: auto;
+    border-radius: 25px;
+    border-color:black;
+    border-color:rgba(255, 255, 255, 0.108);
+    border-style: solid;
+    border-width: 0.2px;
+
+  }
+
+  /* Sidebar links */
+  .sidebar a hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+    to right,
+    #ffffff00,
+    rgba(255, 255, 255, 0.537),
+    rgba(255, 255, 255, 0));
+    margin-top:-10px;
+  }
+  .sidebar p {
+    margin-top:-20px;
+    margin-left:10px;
+    margin-right:3px;
+    display: block;
+    color: rgba(255, 255, 255, 0.193);
+    padding: 20px;
+    text-decoration: none;
+    font-family:'Inter', sans-serif;
+    font-weight:450;
+    letter-spacing: -0.5px;
+    text-shadow: 0 0 0px rgba(255, 255, 255, 0.152), 0 0 1px rgba(255, 255, 255, 0.136);
+  }
+  .sidebar a {
+    margin-left:3px;
+    margin-right:3px;
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    font-family:'Inter', sans-serif;
+    font-weight:430;
+    letter-spacing: -0.5px;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.384), 0 0 5px rgba(255, 255, 255, 0.51);
+    margin-left:15px;
+    margin-right:15px;
+    border-radius: 15px;
+  }
+  .iconn{
+    width:20px;
+    height:20px;
+    margin-right:15px;
+  }
+  .logo{
+    height:60px;
+    width:60px;
+    margin-left:-4;
+    margin-top:35px;
+ }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #ffffff16;
+    color: rgb(255, 255, 255);
+    
+    border-color:rgba(255, 255, 255, 0.108);
+    border-style: solid;
+    border-width: 0.2px;
+    margin-left:15px;
+    margin-right:15px;
+    border-radius: 15px;
+   
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #ffffff0b;
+    color: white;
+    border-radius: 10px;
+  }
+  input[type="text"] {
+	  width: 1000px;
+  	height: 50px;
+  	padding: 3px;
+  	font-size: 1.3rem;
+    border-radius: 20px;
+  	border: 3px solid #ffffff55;
+    position:absolute;
+    top:10px;
+}
+  .inpu{
+    margin-left:280px
+  }
+  .sbutton{
+    position: relative;
+    left:950px;
+    top:10px;
+    margin-bottom:0px;
+    width: 100px;
+  	height: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    font-family:'Inter', sans-serif;
+    font-weight:450;
+    letter-spacing: -0.5px;
+    text-shadow: 0 0 0px rgba(255, 255, 255, 0.152), 0 0 1px rgba(255, 255, 255, 0.136);
+    background-color:#ff9500;
+  }
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    input[type="text"] {
+      width: 100%;
+      height: 50px;
+      padding: 3px;
+      font-size: 1.8rem;
+      border-radius: 20px;
+      border: 3px solid hsl(43, 82%, 89%);
+      position:absolute;
+      bottom:20px;
+  }
+  .inpu{
+    margin-left:0px
+  }
+  }
+    
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  input[type="text"] {
+	  width: 100%;
+  	height: 50px;
+  	padding: 3px;
+  	font-size: 1.8rem;
+    border-radius: 20px;
+  	border: 3px solid #FAEDCD;
+    position:absolute;
+    bottom:0px;
+}
+.inpu{
+  margin-left:0px
+}
+  }
+
+.answer{
+  border-radius: 20px;
+  background-color: white;
+  height:fit-content;
+  width: 1000px;
+  padding: 3px;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  border: 3px solid #ffffff55;
+  position:absolute;
+  top:80px;
+  margin-left:280px;
+}
